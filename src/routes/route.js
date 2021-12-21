@@ -42,6 +42,13 @@ router.put('/books/:bookId/review/:reviewId',bookController.updateReview)
 //delete
 router.delete('/books/:bookId/review/:reviewId',bookController.deleteReview)
 
+//aws api 
+router.post("/write-file-aws", bookController.getFileData)
+//
+router.post("/addBookCover", bookController.addBookCover)
+
+
+
 
 
 

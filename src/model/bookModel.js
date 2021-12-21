@@ -53,6 +53,10 @@ const bookSchema = new mongoose.Schema({
         type: String,
         required: true  // format("YYYY-MM-DD")
     },
+    bookCover:{
+        type:String,
+        default:""
+    },
 
 
 
